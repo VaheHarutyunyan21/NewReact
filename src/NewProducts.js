@@ -3,7 +3,7 @@ import {data} from './Data';
 import './NewProducts.css'
 
 
-  export const NewProducts = ()=>{
+  export const NewProducts = (props)=>{
  const {productid}=useParams();
  const product = data.find((product)=>product.id === +productid )
 //   const {img,name,price}= product;
@@ -19,7 +19,7 @@ import './NewProducts.css'
           <h4>Նկարագիր`</h4>
           {product.description}
           </p>
-          <button className="button" >Ավելացնել զամբյուղ</button>
+          <button className="button" onClick={props.y} >Ավելացնել զամբյուղ</button>
       </div>
         
        
