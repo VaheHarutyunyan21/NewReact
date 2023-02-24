@@ -11,11 +11,11 @@ export default function Header(props) {
             <div className='Header'>
                 <div className='divHeader'>
                     <div className='divHeadr1'>
-                        <Link to='/mens' className='link'>Men's</Link>
-                        <a href="" className='link'> Ladies </a>
-                        <a href="" className='link'> National </a>
-                        <a href="" className='link'> Mechanical </a>
-                        <a href="" className='link'> Ceramic </a>
+                        <Link to='/mens' className='link'>  Men's  </Link>
+                        <a href="" className='link'>  Ladies  </a>
+                        <a href="" className='link'>  National  </a>
+                        <a href="" className='link'>  Mechanical  </a>
+                        <a href="" className='link'>  Ceramic   </a>
                     </div>
                     <div>
                        <Link to='/' > <img className='logoimg' src={logo} /></Link>
