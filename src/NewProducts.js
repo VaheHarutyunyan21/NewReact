@@ -3,10 +3,13 @@ import {data} from './Data';
 import './NewProducts.css'
 
 
+
   export const NewProducts = (props)=>{
+
  const {productid}=useParams();
  const product = data.find((product)=>product.id === +productid )
-//   const {img,name,price}= product;
+ 
+
  return (
     <div className="newProductAll" >
       <div className="divImg">
